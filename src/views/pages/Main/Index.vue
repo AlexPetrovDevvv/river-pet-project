@@ -77,7 +77,7 @@
     .hero
         width: 100%
         height: 100vh
-        background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./assets/img/background.jpg')  no-repeat center center / cover
+        background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/assets/img/background.jpg')  no-repeat center center / cover
         display: flex
         align-items: center
         justify-content: center
