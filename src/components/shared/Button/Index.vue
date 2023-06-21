@@ -1,6 +1,6 @@
 <template >
     <component :is="tag" class="button" :class="{button_white: white}">
-        {{ text }}
+        {{ props.text }}
     </component>
 </template>
 <script setup>
@@ -18,6 +18,10 @@
             type: Boolean,
             default: false,
         },
+        text: {
+            type: String,
+            default: "button",
+        }
     })
 
 </script>
@@ -34,6 +38,7 @@
         opacity: 1
         transition: .3s ease-in-out
         transition-property: background-color, color
+        border: none
         &:hover
             color: var(--orange)
             background-color: var(--white)

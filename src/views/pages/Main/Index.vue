@@ -60,7 +60,7 @@
                     <h2 class="title">Ознакомьтесь с результатами исследований или рассчитайте эвтрофикацию сами</h2>
                     <div class="links-box">
                         <button-component tag="a" href="#" text="Посмотреть данные"/>
-                        <button-component tag="a" href="#" text="Рассчитать данные"/>
+                        <router-link class="button" :to="{name: 'form' }">Расчитать данные</router-link>
                     </div>
                 </div>
             </section>

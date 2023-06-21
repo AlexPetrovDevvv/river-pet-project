@@ -2,7 +2,7 @@
     <header-template>
         <template #buttons>
             <button-component tag="a" href="#" text="Посмотреть данные"/>
-            <button-component tag="a" href="#" text="Рассчитать данные" :white="true"/>
+            <router-link class="button button_white" :to="{name: 'form' }">Расчитать данные</router-link>
         </template>
     </header-template>
 </template>
