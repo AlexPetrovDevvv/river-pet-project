@@ -45,6 +45,7 @@
                     </div>
                 </form>
                 <div class="wrapper">
+                    <img src="/assets/img/table.jpg" alt="" class="table">
                     <span class="result">{{ ITS }}</span>
                     <button-component tag="button" text="Произвести расчет" @click.prevent="calculate"/>
                 </div>
@@ -139,4 +140,11 @@
         color: var(--orange)
         font-weight: 600
         font-size: 30px
+    .table
+        display: block
+        width: \400px
+        height: 300px
+        margin-bottom: 30px
+
+
 </style>
